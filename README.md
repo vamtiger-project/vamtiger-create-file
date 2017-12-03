@@ -35,7 +35,7 @@ createFile('some/file/absolute/path', 'Some file data')
     .catch(handleError);
 ```
 
-[VAMTIGER Create File](https://github.com/vamtiger-project/https://github.com/vamtiger-project/vamtiger-create-file) returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), the result can be more conveniently executed within an [async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function):
+[VAMTIGER Create File](https://github.com/vamtiger-project/https://github.com/vamtiger-project/vamtiger-create-file) returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), it can be more conveniently executed within an [async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function):
 ```javascript
 async someAsyncFunction function() {
     const fileData = 'Some file data';
