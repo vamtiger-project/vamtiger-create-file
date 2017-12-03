@@ -1,4 +1,4 @@
-# VAMTIGER Bash
+# VAMTIGER Create File
 Create a file for the defined path.
 
 ## Installation
