@@ -1,5 +1,5 @@
 # VAMTIGER Create File
-Create a file for the defined path.
+Create a file for a defined path.
 
 ## Installation
 [VAMTIGER Create File](https://github.com/vamtiger-project/https://github.com/vamtiger-project/vamtiger-create-file) can be installed using [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/lang/en/):
