@@ -1,6 +1,6 @@
 {
   "name": "vamtiger-create-file",
-  "version": "0.0.2-0",
+  "version": "0.0.2",
   "description": "Create a new file for a defined absolute path.",
   "main": "build",
   "types": "build/index.d.ts",
