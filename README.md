@@ -31,7 +31,6 @@ createFile('some/file/absolute/path')
 File data can also be written the the new file:
 ```javascript
 createFile('some/file/absolute/path', 'Some file data')
-    .then(handleResult)
     .catch(handleError);
 ```
 
