@@ -2,25 +2,17 @@
 # yarn lockfile v1
 
 
-"@types/bluebird@^3.5.18":
-  version "3.5.18"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.18.tgz#6a60435d4663e290f3709898a4f75014f279c4d6"
-
-"@types/chai@^4.0.4":
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.7.tgz#cab25b9fcb45903fe6c7fa716dc6394314c13dd8"
-
-"@types/chai@^4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.6.tgz#9cb5a7fb7dd83be0cfcaafdbd95a2b5dd351762f"
+"@types/chai@^4.0.4", "@types/chai@^4.0.6":
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.10.tgz#0eb222c7353adde8e0980bea04165d4d3b6afef3"
 
 "@types/mocha@^2.2.44":
   version "2.2.44"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.44.tgz#1d4a798e53f35212fd5ad4d04050620171cd5b5e"
 
 "@types/node@^8.0.53":
-  version "8.0.53"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.53.tgz#396b35af826fa66aad472c8cb7b8d5e277f4e6d8"
+  version "8.0.58"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.58.tgz#5b3881c0be3a646874803fee3197ea7f1ed6df90"
 
 assertion-error@^1.0.1:
   version "1.0.2"
@@ -228,11 +220,9 @@ vamtiger-bash@^0.0.11:
   dependencies:
     bluebird "^3.5.1"
 
-vamtiger-get-directory-content@^0.0.29:
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/vamtiger-get-directory-content/-/vamtiger-get-directory-content-0.0.29.tgz#b72fe7a636813f14970f128373d6400ba12178e7"
-  dependencies:
-    bluebird "^3.5.1"
+vamtiger-get-directory-content@^0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/vamtiger-get-directory-content/-/vamtiger-get-directory-content-0.0.31.tgz#18284bb66882cee521df5deaf5bd07fbda6d7c87"
 
 vamtiger-node-typescript-commit@^0.0.42:
   version "0.0.42"
