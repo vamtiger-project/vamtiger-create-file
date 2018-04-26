@@ -1,4 +1,7 @@
 import { writeFile } from 'fs';
 import { promisify } from 'util';
+import * as bluebird from 'bluebird';
 
-export default promisify(writeFile);
+const createFile = promisify && promisify(writeFile) || bluebird.promisify(writeFile);
+
+export default createFile;
