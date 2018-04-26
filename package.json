@@ -1,6 +1,6 @@
 {
   "name": "vamtiger-create-file",
-  "version": "0.0.7",
+  "version": "0.0.8-0",
   "description": "Create a new file for a defined absolute path.",
   "main": "build",
   "types": "build/index.d.ts",
@@ -13,6 +13,7 @@
     "commit": "vamtigerNodeTypescriptCommit --push --publish"
   },
   "devDependencies": {
+    "@types/bluebird": "^3.5.20",
     "@types/chai": "^4.0.6",
     "@types/mocha": "^2.2.44",
     "@types/node": "^8.0.53",
@@ -23,5 +24,7 @@
     "vamtiger-get-directory-content": "^0.0.31",
     "vamtiger-node-typescript-commit": "^0.0.42"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
 }
