@@ -1,12 +1,17 @@
 {
   "name": "vamtiger-create-file",
-  "version": "0.0.9",
+  "version": "0.0.10-0",
   "description": "Create a new file for a defined absolute path.",
   "main": "build",
   "types": "build/index.d.ts",
   "repository": "https://github.com/vamtiger-project/vamtiger-create-file.git",
   "author": "Vamtiger Immortalles",
   "license": "MIT",
+  "keywords": [
+    "vamtiger",
+    "create",
+    "file"
+  ],
   "scripts": {
     "test": "mocha build/test --recursive",
     "build": "tsc",
@@ -22,7 +27,7 @@
     "node": "^9.2.0",
     "typescript": "^2.6.2",
     "vamtiger-get-directory-content": "^0.0.31",
-    "vamtiger-node-typescript-commit": "^0.0.42"
+    "vamtiger-node-typescript-commit": "latest"
   },
   "dependencies": {
     "bluebird": "^3.5.1"
